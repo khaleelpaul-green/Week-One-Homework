@@ -1,0 +1,201 @@
+/* universal selector applies following properties to entire page. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* background colour set for body */
+body {
+    background-color: #d9dcd6;
+}
+/* for class="header", change padding, change font family, change background colour, set text colour*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* positions h1 within class="header" on inline-block, change font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* changes colour of class="seo" */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* for div within class="header", change top padding, change right side margin, placed on right side on container, change font family, change font size */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* removes bullet point from listed items in class="header"*/
+.header div ul {
+    list-style-type: none;
+}
+/* position nav buttons */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* for anchors, change colour, remove hyperlink underline */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* change font size for paragraph */
+p {
+    font-size: 16px;
+}
+/* for class="hero" change height, change width, change bottom margin, add background image, set image size, set image position*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* for class="content", change width, set display to inline-block, change left margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* for id="search-engine-optimization", change bottom margin, change padding, change height, set font family, change background, change font colour */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* for image in id=search-engine-optimization", change max height */
+#search-engine-optimization img {
+    max-height: 200px;
+}
+/* for class="float-left", place element on left of container, change right margin */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* for h2 id="search-engine-optimization", change bottom margin, change font size */
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* for class="online-reputation-management", change bottom margin, change padding, change height, change font family, change background colour, change font colour */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* for image in class="online-reputation-management", change max height */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* for class="float-right", place element of right of container, change left margin */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* for h2 in class="online-reputation-management", change bottom margin, change font size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* for class="social-media-marketing", change bottom margin, change padding, change height, change font family, change background colour, change font colour */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* for image in class="social-media-marketing", change max height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* for h2 in class="social-media-marketing", change bottom margin, change font size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* for class="benefits", change right margin, change padding, set position, change width and height, change font family, change background colour */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* for class="benefit-lead", change bottom margin, change font colour */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* for class="benefit-brand", change bottom margin, change font colour */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* for class="benefit-cost", change bottom margin, change font colour */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* for class="benefit-lead", change bottom margin, set text align */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* for h3 in class="benefit-brand", change bottom margin, set text align */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* for h3 in class="benefit-cost", change bottom margin, set text align */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* for image in class="benefit-lead", change display to block, change margin, set width contraint */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* for image in class="benefit-brand", change display to block, change margin, set width contraint */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* for image in class="benefit-cost", change display to block, change margin, set width contraint */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* for class="footer", change padding, set footer position, set font family, set text align */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* for h4 in class="footer", change font size */
+.footer h4 {
+    font-size: 20px;
+}
